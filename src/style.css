@@ -1,0 +1,131 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:  #F6F7F8;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    margin: 0;
+    padding: 0;
+    border: 0;    
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 48px;  
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+  
+.logo {
+    display: block;
+    height: 34px;
+    width: 150px;
+    margin: 15px 48.95px 15px 0px;
+    background-image: url('https://www.cdn-tinkoff.ru/frontend-libraries/pfcore-static-assets/logos/main-logo.svg');
+}
+
+.log-button {
+    width: 19px;
+    height: 18px;
+    background-image: url("/assets/icons/login.svg");
+}
+  
+.header {
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.12);
+    background-color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    background-color: #FFFFFF;
+    max-width: 1362px;
+    margin: 0px auto;
+}
+
+.left {
+    display: flex;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 0;
+}
+
+.menu li{
+    margin-right: 24px;
+}
+
+.finteh {
+    position: relative;
+}
+
+.finteh::after {
+    position: absolute;
+    height: 2px;
+    margin: 0 auto;
+    content: '';
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #666666;
+    left: 0;
+    bottom: -22px;
+}
+
+.right {
+    display: flex;
+    margin: 22px 3px 22px 0px;
+}
+
+.log-text {
+    margin-right: 10px;
+}
+
+.more-button {
+    width: 150px;
+    height: 56px;
+    background: #FFDD2D;
+    border-radius: 8px;
+    border: 0;
+    margin: 0px auto;	
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 64px;
+}
+
+
+.cont1 {
+    max-width: 1360px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0px;
+}
+
+.img1 {
+    margin: 0px auto;	
+    display: block;
+}
